@@ -10,33 +10,23 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/Calc.ts":
-/*!*********************!*\
-  !*** ./src/Calc.ts ***!
-  \*********************/
-/***/ ((__unused_webpack_module, exports) => {
+/***/ "./src/animation.js":
+/*!**************************!*\
+  !*** ./src/animation.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.calculater = void 0;\r\nconst calculater = () => {\r\n    let u = 20;\r\n    let o = 100;\r\n    console.log(\"the second result is : \" + (u + o));\r\n    console.log(\"Balolebwami\");\r\n    if (u <= o) {\r\n        return (console.log(\"the second result is :\" + (u + o)));\r\n    }\r\n    else {\r\n        console.log(\"Balolebwami\");\r\n    }\r\n};\r\nexports.calculater = calculater;\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvQ2FsYy50cy5qcyIsIm1hcHBpbmdzIjoiOzs7QUFDUSxNQUFNLFVBQVUsR0FBRyxHQUFHLEVBQUU7SUFDNUIsSUFBSSxDQUFDLEdBQUcsRUFBRSxDQUFDO0lBQ1gsSUFBSSxDQUFDLEdBQUcsR0FBRyxDQUFDO0lBQ1osT0FBTyxDQUFDLEdBQUcsQ0FBQyx5QkFBeUIsR0FBQyxDQUFDLENBQUMsR0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDO0lBQzdDLE9BQU8sQ0FBQyxHQUFHLENBQUMsYUFBYSxDQUFDLENBQUM7SUFFM0IsSUFBSSxDQUFDLElBQUcsQ0FBQyxFQUFFO1FBQ1YsT0FBTyxDQUFDLE9BQU8sQ0FBQyxHQUFHLENBQUMsd0JBQXdCLEdBQUUsQ0FBQyxDQUFDLEdBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQyxDQUFDO0tBQ3REO1NBQUk7UUFDRCxPQUFPLENBQUMsR0FBRyxDQUFDLGFBQWEsQ0FBQyxDQUFDO0tBQzlCO0FBQ0wsQ0FBQztBQVhhLGtCQUFVLGNBV3ZCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbXl3ZWJwYWNrLy4vc3JjL0NhbGMudHM/ODI2YyJdLCJzb3VyY2VzQ29udGVudCI6WyJcclxuZXhwb3J0ICBjb25zdCBjYWxjdWxhdGVyID0gKCkgPT4ge1xyXG4gICAgbGV0IHUgPSAyMDtcclxuICAgIGxldCBvID0gMTAwO1xyXG4gICAgY29uc29sZS5sb2coXCJ0aGUgc2Vjb25kIHJlc3VsdCBpcyA6IFwiKyh1K28pKTtcclxuICAgIGNvbnNvbGUubG9nKFwiQmFsb2xlYndhbWlcIik7XHJcbiAgICBcclxuICAgIGlmICh1PD0gbykge1xyXG4gICAgIHJldHVybiAoY29uc29sZS5sb2coXCJ0aGUgc2Vjb25kIHJlc3VsdCBpcyA6XCIgKyh1K28pKSk7XHJcbiAgICB9ZWxzZXtcclxuICAgICAgICBjb25zb2xlLmxvZyhcIkJhbG9sZWJ3YW1pXCIpO1xyXG4gICAgfVxyXG59XHJcblxyXG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/Calc.ts\n");
-
-/***/ }),
-
-/***/ "./src/forms.ts":
-/*!**********************!*\
-  !*** ./src/forms.ts ***!
-  \**********************/
-/***/ ((__unused_webpack_module, exports) => {
-
-eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.formData = void 0;\r\nconst formData = (form) => {\r\n    const inputs = form.querySelectorAll('input');\r\n    let values = {};\r\n    inputs.forEach(input => {\r\n        values[input.id] = input.value;\r\n        const form = document.querySelector('form');\r\n        form.addEventListener('submit', (e) => {\r\n            e.preventDefault();\r\n            const data = (0, exports.formData)(form);\r\n            console.log(data);\r\n        });\r\n    });\r\n    return values;\r\n};\r\nexports.formData = formData;\r\nconst form = document.querySelector('form');\r\nform.addEventListener('submit', (e) => {\r\n    e.preventDefault();\r\n    const data = (0, exports.formData)(form);\r\n    console.log(data);\r\n});\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvZm9ybXMudHMuanMiLCJtYXBwaW5ncyI6Ijs7O0FBQU8sTUFBTSxRQUFRLEdBQUcsQ0FBQyxJQUFxQixFQUFFLEVBQUU7SUFDOUMsTUFBTSxNQUFNLEdBQUcsSUFBSSxDQUFDLGdCQUFnQixDQUFDLE9BQU8sQ0FBQyxDQUFDO0lBQzlDLElBQUksTUFBTSxHQUE2QixFQUFFLENBQUM7SUFFMUMsTUFBTSxDQUFDLE9BQU8sQ0FBQyxLQUFLLENBQUMsRUFBRTtRQUNyQixNQUFNLENBQUMsS0FBSyxDQUFDLEVBQUUsQ0FBQyxHQUFHLEtBQUssQ0FBQyxLQUFLLENBQUM7UUFFL0IsTUFBTSxJQUFJLEdBQUcsUUFBUSxDQUFDLGFBQWEsQ0FBQyxNQUFNLENBQUUsQ0FBQztRQUU3QyxJQUFJLENBQUMsZ0JBQWdCLENBQUMsUUFBUSxFQUFFLENBQUMsQ0FBQyxFQUFFLEVBQUU7WUFDcEMsQ0FBQyxDQUFDLGNBQWMsRUFBRSxDQUFDO1lBQ25CLE1BQU0sSUFBSSxHQUFHLG9CQUFRLEVBQUMsSUFBSSxDQUFDLENBQUM7WUFDNUIsT0FBTyxDQUFDLEdBQUcsQ0FBQyxJQUFJLENBQUMsQ0FBQztRQUNwQixDQUFDLENBQUMsQ0FBQztJQUVMLENBQUMsQ0FBQyxDQUFDO0lBQ0gsT0FBTyxNQUFNLENBQUM7QUFDaEIsQ0FBQyxDQUFDO0FBakJTLGdCQUFRLFlBaUJqQjtBQUVGLE1BQU0sSUFBSSxHQUFHLFFBQVEsQ0FBQyxhQUFhLENBQUMsTUFBTSxDQUFFLENBQUM7QUFFL0MsSUFBSSxDQUFDLGdCQUFnQixDQUFDLFFBQVEsRUFBRSxDQUFDLENBQUMsRUFBRSxFQUFFO0lBQ3BDLENBQUMsQ0FBQyxjQUFjLEVBQUUsQ0FBQztJQUNuQixNQUFNLElBQUksR0FBRyxvQkFBUSxFQUFDLElBQUksQ0FBQyxDQUFDO0lBQzVCLE9BQU8sQ0FBQyxHQUFHLENBQUMsSUFBSSxDQUFDLENBQUM7QUFDcEIsQ0FBQyxDQUFDLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9teXdlYnBhY2svLi9zcmMvZm9ybXMudHM/NTBiNiJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgZm9ybURhdGEgPSAoZm9ybTogSFRNTEZvcm1FbGVtZW50KSA9PiB7XHJcbiAgICBjb25zdCBpbnB1dHMgPSBmb3JtLnF1ZXJ5U2VsZWN0b3JBbGwoJ2lucHV0Jyk7XHJcbiAgICBsZXQgdmFsdWVzOiB7W3Byb3A6IHN0cmluZ106IHN0cmluZ30gPSB7fTtcclxuICBcclxuICAgIGlucHV0cy5mb3JFYWNoKGlucHV0ID0+IHtcclxuICAgICAgdmFsdWVzW2lucHV0LmlkXSA9IGlucHV0LnZhbHVlO1xyXG5cclxuICAgICAgY29uc3QgZm9ybSA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJ2Zvcm0nKSE7XHJcblxyXG4gICAgICBmb3JtLmFkZEV2ZW50TGlzdGVuZXIoJ3N1Ym1pdCcsIChlKSA9PiB7XHJcbiAgICAgICAgZS5wcmV2ZW50RGVmYXVsdCgpO1xyXG4gICAgICAgIGNvbnN0IGRhdGEgPSBmb3JtRGF0YShmb3JtKTtcclxuICAgICAgICBjb25zb2xlLmxvZyhkYXRhKTtcclxuICAgICAgfSk7XHJcblxyXG4gICAgfSk7XHJcbiAgICByZXR1cm4gdmFsdWVzO1xyXG4gIH07XHJcblxyXG4gIGNvbnN0IGZvcm0gPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKCdmb3JtJykhO1xyXG5cclxuZm9ybS5hZGRFdmVudExpc3RlbmVyKCdzdWJtaXQnLCAoZSkgPT4ge1xyXG4gIGUucHJldmVudERlZmF1bHQoKTtcclxuICBjb25zdCBkYXRhID0gZm9ybURhdGEoZm9ybSk7XHJcbiAgY29uc29sZS5sb2coZGF0YSk7XHJcbn0pO1xyXG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/forms.ts\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"animation\": () => (/* binding */ animation)\n/* harmony export */ });\n  \r\n const animation = () =>{\r\n    const letter = document.getElementById('Animate');\r\n    \r\n    letter.addEventListener('mouseover', FunctionMouseOver)\r\n  \r\n    function FunctionMouseOver() {\r\n        letter.innerHTML= \"the best is backing now \"\r\n     }\r\n}\r\n\r\n\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvYW5pbWF0aW9uLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBQTtBQUNBLENBQVE7QUFDUjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL215d2VicGFjay8uL3NyYy9hbmltYXRpb24uanM/ZjY4MCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIFxyXG4gZXhwb3J0IGNvbnN0IGFuaW1hdGlvbiA9ICgpID0+e1xyXG4gICAgY29uc3QgbGV0dGVyID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ0FuaW1hdGUnKTtcclxuICAgIFxyXG4gICAgbGV0dGVyLmFkZEV2ZW50TGlzdGVuZXIoJ21vdXNlb3ZlcicsIEZ1bmN0aW9uTW91c2VPdmVyKVxyXG4gIFxyXG4gICAgZnVuY3Rpb24gRnVuY3Rpb25Nb3VzZU92ZXIoKSB7XHJcbiAgICAgICAgbGV0dGVyLmlubmVySFRNTD0gXCJ0aGUgYmVzdCBpcyBiYWNraW5nIG5vdyBcIlxyXG4gICAgIH1cclxufVxyXG5cclxuXHJcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/animation.js\n");
 
 /***/ }),
 
-/***/ "./src/index.ts":
+/***/ "./src/index.js":
 /*!**********************!*\
-  !*** ./src/index.ts ***!
+  !*** ./src/index.js ***!
   \**********************/
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    var desc = Object.getOwnPropertyDescriptor(m, k);\r\n    if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\r\n      desc = { enumerable: true, get: function() { return m[k]; } };\r\n    }\r\n    Object.defineProperty(o, k2, desc);\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst forms = __importStar(__webpack_require__(/*! ../src/forms */ \"./src/forms.ts\"));\r\nconst Calc = __importStar(__webpack_require__(/*! ../src/Calc */ \"./src/Calc.ts\"));\r\nforms.formData;\r\nCalc.calculater();\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXgudHMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLHNGQUF5QztBQUN6QyxtRkFBbUM7QUFDbkMsS0FBSyxDQUFDLFFBQVEsQ0FBQztBQUNmLElBQUksQ0FBQyxVQUFVLEVBQUUsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL215d2VicGFjay8uL3NyYy9pbmRleC50cz9mZmI0Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAqICBhcyAgZm9ybXMgZnJvbSAgXCIuLi9zcmMvZm9ybXNcIjsgXHJcbmltcG9ydCAqIGFzIENhbGMgZnJvbSBcIi4uL3NyYy9DYWxjXCJcclxuZm9ybXMuZm9ybURhdGE7XHJcbkNhbGMuY2FsY3VsYXRlcigpO1xyXG5cclxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/index.ts\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_animation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/animation */ \"./src/animation.js\");\n\r\n_src_animation__WEBPACK_IMPORTED_MODULE_0__.animation();\r\n\r\n\r\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMuanMiLCJtYXBwaW5ncyI6Ijs7QUFBOEM7QUFDOUMscURBQW1CO0FBQ25CO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9teXdlYnBhY2svLi9zcmMvaW5kZXguanM/YjYzNSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgKiAgYXMgYW5pbWF0aW9uIGZyb20gXCIuLi9zcmMvYW5pbWF0aW9uXCJcclxuYW5pbWF0aW9uLmFuaW1hdGlvbigpO1xyXG5cclxuXHJcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/index.js\n");
 
 /***/ })
 
@@ -60,18 +50,47 @@ eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
 /******/ 	
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
 /************************************************************************/
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/************************************************************************/
 /******/ 	
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	// This entry module is referenced by other modules so it can't be inlined
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.ts");
+/******/ 	// This entry module can't be inlined because the eval-source-map devtool is used.
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
 /******/ 	
 /******/ })()
 ;
